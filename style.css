@@ -1,0 +1,40 @@
+#container{
+    width: 100%;
+}
+#sidebar{
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    float: left;
+    background-color: gray;
+    border-radius: 20px;
+
+}
+#container #elt1{
+    float: left;
+    width: 73%;
+    background-color: green;
+    border-radius: 20px;
+    margin-left: 150px;
+}
+#container #elt2{
+    float: left;
+    width: 20%;
+    background-color:yellow;
+    border-radius: 20px;
+    margin-left: 150px;
+}
+#container #elt3{
+    float: left;
+    width: 20%;
+    background-color:red;
+    border-radius: 20px;
+    margin-left: 0px;
+}
+#container #elt4{
+    float: left;
+    width: 20%;
+    background-color:blue;
+    border-radius: 20px;
+    margin-left: 0px;
+}
